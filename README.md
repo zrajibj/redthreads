@@ -5,6 +5,8 @@ Everything from the Red Threads project, mirrored from Google Drive (`My Drive/R
 ## Layout
 
 ```
+channel/
+  launch-plan.md                      Channel launch plan (copy of the Google Doc in Drive: Red Threads/Channel)
 Video/
   Skills/
     ted-ed-style-explainer/SKILL.md   Skill for scripting and directing TED-Ed style animated explainers
