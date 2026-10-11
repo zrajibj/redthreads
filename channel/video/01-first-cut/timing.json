@@ -1,0 +1,388 @@
+[
+ {
+  "beat": 1,
+  "start": 0.0,
+  "end": 17.813,
+  "caps": [
+   [
+    0.0,
+    3.296,
+    "Imagine a country that has just changed its leaders."
+   ],
+   [
+    3.576,
+    9.407,
+    "New faces on the posters, new names on the office doors, new promises on the news."
+   ],
+   [
+    10.137,
+    17.033,
+    "The next morning, a garment worker clocks in at the same factory, for the same wage, under the same owner."
+   ]
+  ]
+ },
+ {
+  "beat": 2,
+  "start": 17.813,
+  "end": 22.865,
+  "caps": [
+   [
+    17.813,
+    19.464,
+    "Something huge has changed."
+   ],
+   [
+    20.194,
+    22.085,
+    "And something even bigger has not."
+   ]
+  ]
+ },
+ {
+  "beat": 3,
+  "start": 22.865,
+  "end": 44.547,
+  "caps": [
+   [
+    22.865,
+    27.367,
+    "Countries all over the world know this feeling, and so does Bangladesh."
+   ],
+   [
+    27.647,
+    36.644,
+    "Power changes hands, hope rises, and before long the same complaints return: corruption, prices, wages that don't keep up."
+   ],
+   [
+    37.374,
+    40.439,
+    "So why does changing the government change so little?"
+   ],
+   [
+    41.169,
+    43.767,
+    "And what would it take to change the thing underneath?"
+   ]
+  ]
+ },
+ {
+  "beat": 4,
+  "start": 44.547,
+  "end": 49.247,
+  "caps": [
+   [
+    44.547,
+    48.467,
+    "To answer that, it helps to picture a society as a building."
+   ]
+  ]
+ },
+ {
+  "beat": 5,
+  "start": 49.247,
+  "end": 62.137,
+  "caps": [
+   [
+    49.247,
+    57.3,
+    "At the top are the parts everyone can see: the government, the parliament, the courts, the parties, the newspapers and TV."
+   ],
+   [
+    57.58,
+    61.357,
+    "This is where the arguments happen, and where the faces change."
+   ]
+  ]
+ },
+ {
+  "beat": 6,
+  "start": 62.137,
+  "end": 77.62,
+  "caps": [
+   [
+    62.137,
+    64.385,
+    "But every building stands on a foundation."
+   ],
+   [
+    64.665,
+    76.84,
+    "In a society, the foundation is the economy: who owns the land, the factories and the money; who does the work; and who keeps what that work produces beyond what workers are paid."
+   ]
+  ]
+ },
+ {
+  "beat": 7,
+  "start": 77.62,
+  "end": 102.401,
+  "caps": [
+   [
+    77.62,
+    85.767,
+    "Karl Marx described society in just these terms: an economic base, with law and politics built on top of it."
+   ],
+   [
+    86.497,
+    89.202,
+    "His partner Friedrich Engels put it bluntly."
+   ],
+   [
+    89.482,
+    101.621,
+    "The \"ultimate causes of all social changes and political revolutions,\" he wrote, are found \"not in men's brains\", but in \"changes in the modes of production and exchange\"."
+   ]
+  ]
+ },
+ {
+  "beat": 8,
+  "start": 102.401,
+  "end": 111.319,
+  "caps": [
+   [
+    102.401,
+    110.539,
+    "In other words: if you want to know why politics looks the way it does, look first at how wealth is made, and who ends up with it."
+   ]
+  ]
+ },
+ {
+  "beat": 9,
+  "start": 111.319,
+  "end": 130.088,
+  "caps": [
+   [
+    111.319,
+    114.204,
+    "Now watch what happens when the government changes."
+   ],
+   [
+    114.934,
+    117.166,
+    "The new leaders move into the top floor."
+   ],
+   [
+    117.446,
+    120.574,
+    "But the building they move into stands on the same base."
+   ],
+   [
+    120.854,
+    124.055,
+    "The same owners hold the same land and factories."
+   ],
+   [
+    124.335,
+    126.389,
+    "The same workers do the same work."
+   ],
+   [
+    126.669,
+    129.308,
+    "The surplus flows into the same locked room."
+   ]
+  ]
+ },
+ {
+  "beat": 10,
+  "start": 130.088,
+  "end": 150.022,
+  "caps": [
+   [
+    130.088,
+    134.656,
+    "Marx and Engels made the point sharply in the Communist Manifesto."
+   ],
+   [
+    134.936,
+    143.905,
+    "\"The executive of the modern State,\" they wrote, \"is but a committee for managing the common affairs of the whole bourgeoisie\", the owning class."
+   ],
+   [
+    144.635,
+    149.242,
+    "Change the members of the committee, and the job description stays the same."
+   ]
+  ]
+ },
+ {
+  "beat": 11,
+  "start": 150.022,
+  "end": 169.537,
+  "caps": [
+   [
+    150.022,
+    152.947,
+    "Albert Einstein saw the same pattern in America."
+   ],
+   [
+    153.227,
+    163.684,
+    "Private capital, he argued, grows into \"an oligarchy\", and political parties are \"largely financed or otherwise influenced by private capitalists\"."
+   ],
+   [
+    163.964,
+    168.757,
+    "Voters choose between candidates, but the money has often chosen first."
+   ]
+  ]
+ },
+ {
+  "beat": 12,
+  "start": 169.537,
+  "end": 189.506,
+  "caps": [
+   [
+    169.537,
+    171.004,
+    "So what about corruption?"
+   ],
+   [
+    171.284,
+    173.86,
+    "On this view, corruption isn't the disease."
+   ],
+   [
+    174.14,
+    175.112,
+    "It's a symptom."
+   ],
+   [
+    175.842,
+    182.425,
+    "When land and wealth are concentrated in a few hands, the state becomes the biggest prize in the country."
+   ],
+   [
+    182.705,
+    188.726,
+    "Whoever wins it faces the same pressures and the same temptations as whoever held it before."
+   ]
+  ]
+ },
+ {
+  "beat": 13,
+  "start": 189.506,
+  "end": 205.239,
+  "caps": [
+   [
+    189.506,
+    191.688,
+    "Does that mean politics doesn't matter?"
+   ],
+   [
+    192.418,
+    193.348,
+    "Not at all."
+   ],
+   [
+    193.628,
+    201.634,
+    "Rights, courts and a free press can protect people, and many scholars argue that strong institutions can reshape an economy."
+   ],
+   [
+    201.914,
+    204.459,
+    "The question is what the change reaches."
+   ]
+  ]
+ },
+ {
+  "beat": 14,
+  "start": 205.239,
+  "end": 225.359,
+  "caps": [
+   [
+    205.239,
+    210.154,
+    "The revolutionary Rosa Luxemburg drew that line over a century ago."
+   ],
+   [
+    210.434,
+    220.501,
+    "Change aimed only at the surface, she warned, gives you \"the suppression of the abuses of capitalism instead of suppression of capitalism itself\"."
+   ],
+   [
+    221.231,
+    224.179,
+    "A fresh coat of paint, on the same foundation."
+   ]
+  ]
+ },
+ {
+  "beat": 15,
+  "start": 225.359,
+  "end": 236.753,
+  "caps": [
+   [
+    225.359,
+    229.677,
+    "So when we talk about change, the question isn't only \"who should rule?\""
+   ],
+   [
+    230.407,
+    231.891,
+    "It's also: who owns?"
+   ],
+   [
+    232.171,
+    232.986,
+    "Who works?"
+   ],
+   [
+    233.266,
+    234.572,
+    "Who keeps the surplus?"
+   ],
+   [
+    234.852,
+    235.973,
+    "And who decides?"
+   ]
+  ]
+ },
+ {
+  "beat": 16,
+  "start": 236.753,
+  "end": 248.492,
+  "caps": [
+   [
+    236.753,
+    240.652,
+    "Those questions are harder than changing a portrait on a wall."
+   ],
+   [
+    240.932,
+    247.712,
+    "People have answered them in different ways, some hopeful and some terrible, and Red Threads will look at both."
+   ]
+  ]
+ },
+ {
+  "beat": 17,
+  "start": 248.492,
+  "end": 259.495,
+  "caps": [
+   [
+    248.492,
+    253.796,
+    "But a society that only changes its faces will keep getting the same results."
+   ],
+   [
+    254.526,
+    258.315,
+    "To change what is built, you have to look at what it is built on."
+   ]
+  ]
+ },
+ {
+  "beat": 18,
+  "start": 259.495,
+  "end": 266.29,
+  "caps": [
+   [
+    259.495,
+    265.51,
+    "Next thread: why couldn't the most famous scientist in the world trust elections to stop the rich?"
+   ]
+  ]
+ }
+]
