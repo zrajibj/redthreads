@@ -322,3 +322,101 @@ def camera(ctx, cx=960, cy=540, z=1.0):
     ctx.translate(W / 2, H / 2)
     ctx.scale(z, z)
     ctx.translate(-cx, -cy)
+
+
+# ---------- Bangla text (shaped with Raqm through Pillow, painted as a cairo mask) ----------
+import os
+from PIL import Image, ImageDraw, ImageFont
+LANG = os.environ.get('RT_LANG', 'en')
+_FD = '/tmp/claude-0/-home-claude-redthreads/cb7bab53-e637-59f3-9012-615456b3612a/scratchpad/fonts/'
+_BN_FONTS = {('Inter', True): _FD + 'hind-siliguri-700.ttf', ('Inter', False): _FD + 'hind-siliguri-600.ttf',
+             ('Caladea', True): _FD + 'noto-serif-bengali-700.ttf', ('Caladea', False): _FD + 'noto-serif-bengali-700.ttf'}
+_DIG = str.maketrans('0123456789', '০১২৩৪৫৬৭৮৯')
+if LANG == 'bn':
+    from tr_bn import TR
+else:
+    TR = {}
+_pf, _masks = {}, {}
+
+
+def L(s):
+    if LANG != 'bn':
+        return s
+    return TR.get(s, s).translate(_DIG)
+
+
+def _pfont(face, bold, size):
+    key = (face, bold, size)
+    if key not in _pf:
+        _pf[key] = ImageFont.truetype(_BN_FONTS[(face if face in ('Inter', 'Caladea') else 'Inter', bold)], size,
+                                      layout_engine=ImageFont.Layout.RAQM)
+    return _pf[key]
+
+
+def _bn_mask(s, size, face, bold):
+    key = (s, size, face, bold)
+    m = _masks.get(key)
+    if m is None:
+        if len(_masks) > 4000:
+            _masks.clear()
+        f = _pfont(face, bold, size)
+        adv = f.getlength(s)
+        pad = int(size * 0.5)
+        w = max(1, int(adv) + 2 * pad); h = int(size * 2.4)
+        img = Image.new('L', (w, h), 0)
+        ImageDraw.Draw(img).text((pad, int(size * 1.6)), s, font=f, fill=255, anchor='ls')
+        stride = cairo.ImageSurface.format_stride_for_width(cairo.FORMAT_A8, w)
+        arr = np.zeros((h, stride), np.uint8)
+        arr[:, :w] = np.asarray(img)
+        surf = cairo.ImageSurface.create_for_data(arr, cairo.FORMAT_A8, w, h, stride)
+        m = (surf, arr, adv, pad, int(size * 1.6))
+        _masks[key] = m
+    return m
+
+
+_text_en, _twidth_en, _wrap_en = text, twidth, wrap
+
+
+def text(ctx, s, x, y, size=32, col=INK, face='Inter', bold=True, italic=False, align='c', a=1.0, spacing=0):
+    if LANG != 'bn':
+        return _text_en(ctx, s, x, y, size, col, face, bold, italic, align, a, spacing)
+    s = L(s)
+    size = size * 1.12
+    if not s.strip() or a <= 0:
+        return 0
+    xx, yx = ctx.get_matrix()[0], ctx.get_matrix()[1]
+    sc = max(0.3, round(math.hypot(xx, yx) * 4) / 4)
+    eff = max(6, int(round(size * sc)))
+    surf, arr, adv, pad, base = _bn_mask(s, eff, face, bold)
+    advu = adv / sc
+    x0 = x - advu / 2 if align == 'c' else (x - advu if align == 'r' else x)
+    ctx.save()
+    ctx.translate(x0, y)
+    ctx.scale(1 / sc, 1 / sc)
+    setc(ctx, col, a)
+    ctx.mask_surface(surf, -pad, -base)
+    ctx.restore()
+    return advu
+
+
+def twidth(ctx, s, size, face='Inter', bold=True, italic=False):
+    if LANG != 'bn':
+        return _twidth_en(ctx, s, size, face, bold, italic)
+    return _pfont(face, bold, int(size * 1.12)).getlength(L(s))
+
+
+def wrap(ctx, s, size, maxw, face='Inter', bold=True, italic=False):
+    if LANG != 'bn':
+        return _wrap_en(ctx, s, size, maxw, face, bold, italic)
+    words = L(s).split()
+    lines, cur = [], ''
+    for w in words:
+        trial = (cur + ' ' + w).strip()
+        if twidth(ctx, trial, size, face, bold) > maxw and cur:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines

@@ -1,7 +1,8 @@
 import json, sys, subprocess
 from scenes import *
 
-TM = json.load(open('timing.json'))
+import os
+TM = json.load(open('timing_bn.json' if os.environ.get('RT_LANG') == 'bn' else 'timing.json'))
 VO_END = TM[-1]['end']
 END_LEN = 20.0
 TOTAL = VO_END + END_LEN
@@ -32,8 +33,7 @@ CAPS = caption_chunks()
 def draw_caption(ctx, T):
     for s, e, ls in CAPS:
         if s <= T < e:
-            font(ctx, 42)
-            wmax = max(ctx.text_extents(l).x_advance for l in ls)
+            wmax = max(twidth(ctx, l, 42) for l in ls)
             h = len(ls) * 54 + 26
             y0 = H - 40 - h
             box(ctx, W / 2 - wmax / 2 - 28, y0, wmax + 56, h, hexc('#1E1E24', 0.78), None, r=14)
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     nf = int(TOTAL * FPS)
     lo, hi = nf * part // nparts, nf * (part + 1) // nparts
     p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'bgr0', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                          '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', f'part{part}.mp4'], stdin=subprocess.PIPE)
+                          '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', f'part{os.environ.get("RT_LANG", "en")}{part}.mp4'], stdin=subprocess.PIPE)
     for f in range(lo, hi):
         s = frame(f / FPS)
         s.flush()

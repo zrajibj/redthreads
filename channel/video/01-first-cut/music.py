@@ -1,5 +1,7 @@
 import numpy as np, soundfile as sf, json
-TM=json.load(open('timing.json')); VO=TM[-1]['end']; TOT=VO+20
+import os
+LG=os.environ.get('RT_LANG','en')
+TM=json.load(open('timing_bn.json' if LG=='bn' else 'timing.json')); VO=TM[-1]['end']; TOT=VO+20
 SR=44100; n=int(TOT*SR); t=np.arange(n)/SR
 def f(m): return 440*2**((m-69)/12)
 chords=[[57,60,64],[53,57,60],[48,52,55,60],[55,59,62]]  # Am F C G
@@ -29,5 +31,5 @@ sting=sum(np.exp(-st*1.5)*np.sin(2*np.pi*f(m)*st) for m in (57,64,69,72))*0.06
 mus[ss:ss+len(st)]+=sting[:max(0,min(len(st),n-ss))]
 # fade in/out
 mus*=np.clip(t/2,0,1)*np.clip((TOT-t)/3,0,1)
-sf.write('music.wav',np.stack([mus,mus],1).astype(np.float32),SR)
+sf.write('music_bn.wav' if LG=='bn' else 'music.wav',np.stack([mus,mus],1).astype(np.float32),SR)
 print(TOT)

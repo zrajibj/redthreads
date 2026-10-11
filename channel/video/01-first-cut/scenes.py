@@ -585,8 +585,8 @@ def s15(ctx, t, d, c, T):
     text(ctx, 'THE FOUNDATION', 120, 640, 30, GREY, align='l')
     p = ease(seg(t, 0.2, 2.0))
     thread(ctx, [(960, -10), (940, 200), (980, 420), (950, 700), (970, 1090)], p, 8)
-    knots = [('WHO SHOULD RULE?', 0.6, 300, GREY), ('WHO OWNS?', c[1] + 0.9, 640, RED), ('WHO WORKS?', c[2], 760, RED),
-             ('WHO KEEPS THE SURPLUS?', c[3], 880, RED), ('WHO DECIDES?', c[4], 1000, RED)]
+    knots = [('WHO SHOULD RULE?', 0.6, 300, GREY), ('WHO OWNS?', c[1] + 0.9, 620, RED), ('WHO WORKS?', c[2], 710, RED),
+             ('WHO KEEPS THE SURPLUS?', c[3], 800, RED), ('WHO DECIDES?', c[4], 890, RED)]
     for i, (s, t0, y, col) in enumerate(knots):
         a = ease(seg(t, t0, t0 + 0.4))
         if a > 0:
