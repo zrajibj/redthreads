@@ -188,67 +188,67 @@ Kropotkin argues that "well-being for all is not a dream" and that a few hours o
 Written with the ted-ed-style-explainer skill. Quotations are from the PDFs in Study Materials/Books unless the sources list says otherwise. Pause beats are marked "/". The English script is the master; the Bangla version should be written from it by a native writer, not machine-translated.
 
 **TITLE OPTIONS:** Why does changing the government change so little? · The problem isn't who rules. It's what they stand on · সরকার বদলায়, ব্যবস্থা বদলায় না কেন?
-**FORMAT:** Standard explainer | **TARGET LENGTH:** about 5 min / 760 words
+**FORMAT:** Standard explainer | **TARGET LENGTH:** about 5 min / 640 words
 **HOOK IMAGE:** a nameplate on an office door being unscrewed and replaced; a single red thread runs from the door down into the ground.
 
 **[Beat 1 | 0:00]** Imagine a country that has just changed its leaders. New faces on the posters, new names on the office doors, new promises on the news. / The next morning, a garment worker clocks in at the same factory, for the same wage, under the same owner.
 VISUAL: An imaginary city: a nameplate unscrewed and replaced, posters pasted over posters, a TV anchor's lips moving. Cut to dawn: a factory gate, a queue of workers, the same red thread now tied to a time card. No real leaders, parties or flags.
 SOUND: Busy news chatter, then a factory bell and silence.
 
-**[Beat 2 | 0:16]** Something huge has changed. / And something even bigger has not.
+**[Beat 2 | 0:19]** Something huge has changed. / And something even bigger has not.
 VISUAL: Split frame: fresh posters on one side, the sewing floor unchanged on the other.
 CUT-DOWN: Clip 1 is Beats 1 to 3.
 
-**[Beat 3 | 0:22]** Countries all over the world know this feeling, and so does Bangladesh. Power changes hands, hope rises, and before long the same complaints return: corruption, prices, wages that don't keep up. / So why does changing the government change so little? / And what would it take to change the thing underneath?
+**[Beat 3 | 0:25]** Countries all over the world know this feeling, and so does Bangladesh. Power changes hands, hope rises, and before long the same complaints return: corruption, prices, wages that don't keep up. / So why does changing the government change so little? / And what would it take to change the thing underneath?
 VISUAL: A calendar flips through the decades; the same street stall, the same price board, the same worried faces in each.
 SOUND: Music drops to a single plucked note.
 
-**[Beat 4 | 0:44]** To answer that, it helps to picture a society as a building.
+**[Beat 4 | 0:48]** To answer that, it helps to picture a society as a building.
 VISUAL: The red thread draws the outline of a tall building on a blank page.
 
-**[Beat 5 | 0:50]** At the top are the parts everyone can see: the government, the parliament, the courts, the parties, the newspapers and TV. This is where the arguments happen, and where the faces change.
+**[Beat 5 | 0:54]** At the top are the parts everyone can see: the government, the parliament, the courts, the parties, the newspapers and TV. This is where the arguments happen, and where the faces change.
 VISUAL: Floors fill in: a parliament chamber, a courtroom, TV screens, party banners. Tiny figures swap places in the top-floor office.
 
-**[Beat 6 | 1:06]** But every building stands on a foundation. In a society, the foundation is the economy: who owns the land, the factories and the money; who does the work; and who keeps what that work produces beyond what workers are paid.
+**[Beat 6 | 1:07]** But every building stands on a foundation. In a society, the foundation is the economy: who owns the land, the factories and the money; who does the work; and who keeps what that work produces beyond what workers are paid.
 VISUAL: The camera sinks through the floors to the basement. Fields, factories and a bank vault sit in the foundation. Workers carry bricks of value up the stairs; most of the bricks go into a locked room.
 
-**[Beat 7 | 1:28]** Karl Marx described society in just these terms: an economic base, with law and politics built on top of it. / His partner Friedrich Engels put it bluntly. The "ultimate causes of all social changes and political revolutions," he wrote, are found "not in men's brains", but in "changes in the modes of production and exchange".
+**[Beat 7 | 1:24]** Karl Marx described society in just these terms: an economic base, with law and politics built on top of it. / His partner Friedrich Engels put it bluntly. The "ultimate causes of all social changes and political revolutions," he wrote, are found "not in men's brains", but in "changes in the modes of production and exchange".
 VISUAL: Two bearded figures sketching the building on a tavern table. Engels' words appear briefly as hand-lettered text along the red thread.
 
-**[Beat 8 | 1:52]** In other words: if you want to know why politics looks the way it does, look first at how wealth is made, and who ends up with it.
+**[Beat 8 | 1:48]** In other words: if you want to know why politics looks the way it does, look first at how wealth is made, and who ends up with it.
 VISUAL: A magnifying glass passes over the top floor and finds nothing; moved down to the foundation, it lights up the locked room.
 
-**[Beat 9 | 2:04]** Now watch what happens when the government changes. / The new leaders move into the top floor. But the building they move into stands on the same base. The same owners hold the same land and factories. The same workers do the same work. The surplus flows into the same locked room.
+**[Beat 9 | 2:00]** Now watch what happens when the government changes. / The new leaders move into the top floor. But the building they move into stands on the same base. The same owners hold the same land and factories. The same workers do the same work. The surplus flows into the same locked room.
 VISUAL: Movers carry out the old leader's nameplate and screw on a new one. The camera pans down: in the foundation, nothing has moved.
 CUT-DOWN: Clip 2 (the most surprising beat).
 
-**[Beat 10 | 2:28]** Marx and Engels made the point sharply in the *Communist Manifesto*. "The executive of the modern State," they wrote, "is but a committee for managing the common affairs of the whole bourgeoisie", the owning class. / Change the members of the committee, and the job description stays the same.
+**[Beat 10 | 2:23]** Marx and Engels made the point sharply in the *Communist Manifesto*. "The executive of the modern State," they wrote, "is but a committee for managing the common affairs of the whole bourgeoisie", the owning class. / Change the members of the committee, and the job description stays the same.
 VISUAL: A boardroom table on the top floor. Figures rotate through the chairs; the agenda on the table never changes.
 
-**[Beat 11 | 2:50]** Albert Einstein saw the same pattern in America. Private capital, he argued, grows into "an oligarchy", and political parties are "largely financed or otherwise influenced by private capitalists". Voters choose between candidates, but the money has often chosen first.
+**[Beat 11 | 2:44]** Albert Einstein saw the same pattern in America. Private capital, he argued, grows into "an oligarchy", and political parties are "largely financed or otherwise influenced by private capitalists". Voters choose between candidates, but the money has often chosen first.
 VISUAL: A ballot box; threads run from its slot not to voters but to a few hands holding purses.
 
-**[Beat 12 | 3:12]** So what about corruption? On this view, corruption isn't the disease. It's a symptom. / When land and wealth are concentrated in a few hands, the state becomes the biggest prize in the country. Whoever wins it faces the same pressures and the same temptations as whoever held it before.
+**[Beat 12 | 3:00]** So what about corruption? On this view, corruption isn't the disease. It's a symptom. / When land and wealth are concentrated in a few hands, the state becomes the biggest prize in the country. Whoever wins it faces the same pressures and the same temptations as whoever held it before.
 VISUAL: The top-floor office becomes a trophy on a pedestal; different hands grab for it in turn, and each pair of hands is pulled by the same threads from the basement.
 
-**[Beat 13 | 3:36]** Does that mean politics doesn't matter? / Not at all. Rights, courts and a free press can protect people, and many scholars argue that strong institutions can reshape an economy. The question is what the change reaches.
+**[Beat 13 | 3:22]** Does that mean politics doesn't matter? / Not at all. Rights, courts and a free press can protect people, and many scholars argue that strong institutions can reshape an economy. The question is what the change reaches.
 VISUAL: The building's windows light up one by one as rights are won. The camera tilts down: the foundation is still in shadow.
 
-**[Beat 14 | 3:54]** The revolutionary Rosa Luxemburg drew that line over a century ago. Change aimed only at the surface, she warned, gives you "the suppression of the abuses of capitalism instead of suppression of capitalism itself". / A fresh coat of paint, on the same foundation.
+**[Beat 14 | 3:38]** The revolutionary Rosa Luxemburg drew that line over a century ago. Change aimed only at the surface, she warned, gives you "the suppression of the abuses of capitalism instead of suppression of capitalism itself". / A fresh coat of paint, on the same foundation.
 VISUAL: Painters cover a cracked wall in bright colours. A crack runs up through the new paint.
 SUBSCRIBE PROMPT: after this line, the 3-second red-thread knot appears in a corner, silently.
 
-**[Beat 15 | 4:16]** So when we talk about change, the question isn't only "who should rule?" / It's also: who owns? Who works? Who keeps the surplus? And who decides?
+**[Beat 15 | 3:57]** So when we talk about change, the question isn't only "who should rule?" / It's also: who owns? Who works? Who keeps the surplus? And who decides?
 VISUAL: The four questions hang like knots on the red thread, which runs from the top floor down into the foundation.
 
-**[Beat 16 | 4:32]** Those questions are harder than changing a portrait on a wall. People have answered them in different ways, some hopeful and some terrible, and Red Threads will look at both.
+**[Beat 16 | 4:09]** Those questions are harder than changing a portrait on a wall. People have answered them in different ways, some hopeful and some terrible, and Red Threads will look at both.
 VISUAL: Quick glimpses of co-operatives, land reforms, a bureaucrat's stamp, a crowd. Each is pinned to the thread.
 
-**[Beat 17 | 4:48]** But a society that only changes its faces will keep getting the same results. / To change what is built, you have to look at what it is built on.
+**[Beat 17 | 4:22]** But a society that only changes its faces will keep getting the same results. / To change what is built, you have to look at what it is built on.
 VISUAL: Return to the office door from Beat 1. The camera follows the red thread down through the floor into the foundation, where it starts to pull.
 CUT-DOWN: Clip 3 (the closing line).
 
-**[Beat 18 | 5:04]** Next thread: why couldn't the most famous scientist in the world trust elections to stop the rich?
+**[Beat 18 | 4:35]** Next thread: why couldn't the most famous scientist in the world trust elections to stop the rich?
 END SCREEN: 20 seconds. The red line runs off the frame into the tile for the Einstein lesson; a red-thread Subscribe knot sits beside it. Nothing else on screen.
 SOUND: Underscore resolves; the sting plays once.
 
